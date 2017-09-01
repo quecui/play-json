@@ -8,6 +8,7 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala)
 scalaVersion := "2.12.2"
 
 libraryDependencies += guice
+libraryDependencies += filters
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.0" % Test
 libraryDependencies += "com.typesafe.play" %% "play-json" % "2.6.3"
 libraryDependencies += "com.github.tototoshi" %% "play-json4s-native" % "0.8.0"

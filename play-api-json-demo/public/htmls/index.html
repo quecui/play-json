@@ -1,0 +1,27 @@
+<html lang="en">
+    <head>
+        <title>Demo Angular</title>
+        <meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="../javascripts/main.js"></script>
+        <script src="../javascripts/services.js"></script>
+    </head>
+
+    <body>
+        <div ng-app="PlayJson" ng-controller="ctrlDemo">
+            <input type="text" placeholder="Your Name" ng-model="name"/><br/>
+            Name: {{name}}
+
+            <br/><button ng-click="getData()">Get Data</button> <br/>
+            <p>
+                Name Data: {{username}} <br/>
+                Age Data: {{age}} <br/>
+            </p>
+            <p>
+                <div>Post User</div>
+                <div><button ng-click="postData()">Post Data</button></div>
+                <div>Result: {{nameRespone}}</div>
+            </p>
+        </div>
+    </body>
+</html>
