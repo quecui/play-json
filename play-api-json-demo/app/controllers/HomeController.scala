@@ -17,6 +17,9 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
 
   /*
    * Json Play
+   * cxc
+   * cxc
+   * xcxc
    */
 
   implicit val userWrites = new Writes[UserDTO]{
