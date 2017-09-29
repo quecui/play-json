@@ -22,4 +22,5 @@ class Json4sController @Inject()(cc: ControllerComponents, json4s: Json4s) exten
   def postUser = Action(json4s.json){ implicit request: Request[JValue] =>
     Ok(request.body.extract[UserDTO].name)
   }
+  //czxczxczxc
 }
