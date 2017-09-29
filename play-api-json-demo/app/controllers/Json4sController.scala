@@ -11,7 +11,7 @@ import play.filters.cors.CORSFilter
 
 @Singleton
 class Json4sController @Inject()(cc: ControllerComponents, json4s: Json4s) extends AbstractController(cc) {
-
+  //cxczxczxc
   import json4s.implicits._
   implicit val formats = DefaultFormats
 
